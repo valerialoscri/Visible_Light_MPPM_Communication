@@ -1,4 +1,4 @@
-This code properly work using LFTX and LFRX daughterboards in transmitting and receiving USRP.
+This code properly works using LFTX and LFRX daughterboards in transmitting and receiving USRP.
 Connect the transmitting TX USRP to the optical transmitter, properly including a bias tee and eventually an amplifier for allowing the signal to correctly feed the LED.
 Connect the receiving RX USRP to the optical receiver, properly including a transimpedance amplifier and eventually, a conditioning circuit in order to avoid receiver saturation.
 Set the same communication parameters (sample rate, order of modulation, synchronization frame length etc.) in transmitting and receiving device ( MAIN_RX.vi and MAIN_TX.vi) files. Set the picture format (size, color flag, pulse duration, etc.) too.
